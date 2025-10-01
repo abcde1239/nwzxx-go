@@ -17,10 +17,9 @@ type doublyLinkedList[T any] struct {
 
 func (l *doublyLinkedList[T]) show() {
 	cur := l.head.next
-	i :=1
+
 	for cur != nil {
 		fmt.Print(cur.data,",")
-		i++
 		cur =cur.next
 	}
      fmt.Println() //结束时换行
