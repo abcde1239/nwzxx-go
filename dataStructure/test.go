@@ -14,4 +14,6 @@ fmt.Println("以下为栈测试")
 StackTest()
 fmt.Println("以下为队列测试")
 QueueTest()
+fmt.Println("以下为普通泛型二叉树测试")
+BinaryTreeTest()
 }

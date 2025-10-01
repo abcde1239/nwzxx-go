@@ -175,4 +175,5 @@ func DoublyLinkedListTest(){
 
     fmt.Println("=== 最终链表长度 ===")
     fmt.Println("size:", list.size) // 应该和元素数对应
+     println()
 }

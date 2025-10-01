@@ -214,4 +214,5 @@ func SinglyLinkedListTest() {
 
     fmt.Println("=== 链表长度 ===")
     fmt.Println(l.size)
+    println()
 }

@@ -73,4 +73,5 @@ func StackTest() {
 	if _, ok := s.pop(); !ok {
 		fmt.Println("栈为空，无法出栈")
 	}
+	 println()
 }

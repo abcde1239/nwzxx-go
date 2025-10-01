@@ -80,4 +80,5 @@ func QueueTest() {
 	if _, ok := q.dequeue(); !ok {
 		fmt.Println("队列为空，无法出队")
 	}
+	 println()
 }
